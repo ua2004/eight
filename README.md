@@ -1,4 +1,4 @@
-# eight
+# is-eight
 NPM package for checking if a number is equal to 8
 
 ## Installation
@@ -6,13 +6,13 @@ NPM package for checking if a number is equal to 8
 This module is installed via npm:
 
 ``` bash
-$ npm install eight
+$ npm install is-eight
 ```
 
 ## Example Usage
 
 ``` js
-var eight = require('eight');
+var eight = require('is-eight');
 
 if(eight(8))
 {
