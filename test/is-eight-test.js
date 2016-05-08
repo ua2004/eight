@@ -14,6 +14,18 @@ describe('The is-eight package', function() {
    it('should return true for 8.0', function() {
       assert.equal(true, eight(8.0));
    }),
+   it('should return true for "VIII"', function() {
+      assert.equal(true, eight("VIII"));
+   }),
+   it('should return true for "eight"', function() {
+      assert.equal(true, eight("eight"));
+   }),
+   it('should return true for "вісім"', function() {
+      assert.equal(true, eight("вісім"));
+   }),
+   it('should return true for "ocho"', function() {
+      assert.equal(true, eight("ocho"));
+   }),
 
    it('should return false for 7', function() {
       assert.notEqual(true, eight(7));

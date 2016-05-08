@@ -1,6 +1,6 @@
 {
   "name": "is-eight",
-  "version": "8.0.8",
+  "version": "8.0.18",
   "description": "Checks if a number is equal to 8",
   "main": "index.js",
   "scripts": {
