@@ -4,7 +4,7 @@
   "description": "Checks if a number is equal to 8",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter list"
   },
   "repository": {
     "type": "git",
@@ -13,9 +13,12 @@
   "keywords": [
     "eight",
     "is-eight",
-	 "numbers",
-	 "math"
+    "numbers",
+    "math"
   ],
   "author": "ua2004",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
