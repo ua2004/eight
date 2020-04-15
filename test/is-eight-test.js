@@ -1,4 +1,4 @@
-var eight = require('../index.js');
+var eight = require('../');
 var assert = require("assert");
 
 describe('The is-eight package', function() {
